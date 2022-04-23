@@ -1,0 +1,39 @@
+
+
+.back{
+background-image: url("../Ressources/background.jpg") ;
+position: fixed;
+min-width: 100%;
+min-height: 100%;
+background-size: cover;
+background-position: center;
+ 
+  
+}
+.text1{
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size:80px;
+  font-family: 'FF Dusha Arabic';
+  padding-top: 300px;
+}
+.text2{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-family: 'FF Dusha Arabic';
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: flip 5s infinite;
+  animation-delay: calc(.5s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
